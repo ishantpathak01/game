@@ -8,7 +8,7 @@ int main() {
     srand(time(0));
 
     int x = 1;              // player position (0 to 2)
-    int step = 0;           // obstacle vertical movement
+    int step = 5;           // obstacle vertical movement
     int obstaclePos = rand() % 3;   // 0,1,2 lane
 
     while (1) {
